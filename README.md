@@ -1,6 +1,6 @@
-__repository_caption__
+Fontawesome Asset Bundle
 ===================
-__repository_description__
+
 
 Installation
 ------------
@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require andrewdanilov/__repository_name__ "*"
+composer require andrewdanilov/yii2-fontawesome "~1.0.0"
 ```
 
 or add
 
 ```
-"andrewdanilov/__repository_name__": "*"
+"andrewdanilov/yii2-fontawesome": "~1.0.0"
 ```
 
 to the `require` section of your `composer.json` file.
@@ -25,4 +25,9 @@ to the `require` section of your `composer.json` file.
 Usage
 -----
 
-todo
+In View:
+```php
+<?php
+
+\andrewdanilov\fontawesome\AssetBundle::register($this);
+```
